@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    flex-wrap: wrap;
+}
+
+.hero {
+    width: 100vw;
+    height: 400px;
+    background: url(../img/std2.jpg) no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+
+}
+
+.hero h2 {
+    display: flex;
+    color: white;
+}
+
+.hero h1 {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.bg {
+    width: 100vw;
+    height: 400px;
+    background-color: #2e73cd84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+.scinese,
+.music,
+.Business,
+.designe,
+.market,
+.Photo,
+.calc,
+.ani {
+    width: 20px;
+    height: 20px;
+}
+
+
+.box1 {
+    width: 190px;
+    height: 55px;
+    background-color: rgba(179, 234, 245, 0.225);
+}
+
+.box2 {
+    width: 190px;
+    height: 55px;
+    background-color: rgba(179, 234, 245, 0.225);
+}
+
+.box3 {
+    width: 190px;
+    height: 55px;
+    background-color: rgba(179, 234, 245, 0.225);
+}
+
+.box4 {
+    width: 190px;
+    height: 55px;
+    background-color: rgba(179, 234, 245, 0.225);
+}
+
+.box5 {
+    width: 190px;
+    height: 55px;
+    background-color: rgba(179, 234, 245, 0.225);
+}
+
+.box6 {
+    width: 190px;
+    height: 55px;
+    background-color: rgba(179, 234, 245, 0.225);
+}
+
+.box7 {
+    width: 190px;
+    height: 55px;
+    background-color: rgba(179, 234, 245, 0.225);
+}
+
+.box8 {
+    width: 190px;
+    height: 55px;
+    background-color: rgba(179, 234, 245, 0.225);
+}
+
+.card {
+    width: 1366;
+    height: 704px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.card button {
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.card span {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    margin: 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.card pre {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    font-size: 17px;
+
+}
+
+.img {
+    margin-left: 35%;
+    width: 275px;
+  height: 300px;
+    position: absolute;
+    z-index: 0;
+    background-size: cover;
+
+}
+
+
+.music,
+.math,
+.book,
+.foon,
+.history {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.tr {
+    width: 20px;
+}
+
+.vidio {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.vi {
+    box-shadow: 50px  30px  rgba(173, 216, 230, 0.973);
+}
+
+.maan {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.img2{
+    margin-left: 44%;
+}
+.lab{
+    width: 182px;
+    height: 126px;
+}
+.lab2{
+
+    width: 182px;
+    height: 112px;
+}
+.pox{
+    color: white;
+    font-size: 17px;
+    background-color: #0d6efd;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.plus{
+    width: 10px;
+    height: 10px;
+}
+.ph{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+.gl{
+    width: 60px;
+    height: 66px;
+}
+
+@media screen and(max-width:767px) {
+    nav {
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 9px;
+    }
+
+    nav ul a {
+        color: white;
+        text-decoration: none;
+        font-size: 8px;
+        flex-wrap: wrap;
+    }
+
+    nav ul {
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .card {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        font-size: 8px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .card pre {
+        width: 50%;
+        height: 50%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .img {
+        margin-left: 35%;
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        z-index: 0;
+        background-size: cover;
+
+    }
+
+}
+@media (max-width:997px){
+    .img{
+    width: 275px;
+    position: relative;
+}
+    }
+    @media (max-width:768px){
+    .col-md-6{
+     width: 50%;
+     flex-wrap: wrap;
+
+    }
+        }
+    
+
